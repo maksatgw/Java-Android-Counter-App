@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //counter app
+    //Counter ++
     int sayi = 0;
     public void counter(View view){
         TextView textView = findViewById(R.id.textView);
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(s);
     }
 
+    //Counter --
     public void counterDec(View view){
         TextView textView = findViewById(R.id.textView);
         sayi--;
